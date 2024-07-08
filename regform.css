@@ -1,0 +1,85 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+
+body {
+   background-image:url('https://i2.wp.com/files.123freevectors.com/wp-content/original/508840-colorful-flower-border-design.jpg?w=500&q=95'); 
+   background-repeat: no-repeat;           
+   background-attachment: fixed;           
+   background-size: cover;
+   background-color: #f2f2f2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+
+.container {
+   background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwISQTX4F6APWo64eNi6hE29ZgQLpWfGetQ&s');
+   background-repeat: no-repeat;           
+   background-attachment: fixed;           
+   background-size: cover;
+   background-color: rgb(228, 25, 25);
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(8, 248, 168, 0.1);
+   width: 100%;
+   max-width: 600px;
+}
+
+
+h2 {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid rgb(213, 228, 10);
+   border-radius: 4px;
+}
+
+
+.form-group .radio-group {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.form-group .radio-group label {
+   font-weight: normal;
+}
+
+
+.form-group button {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+
+.form-group button:hover {
+   background-color: #45a049;
+}
